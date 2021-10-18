@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns: repeat(2,50%);
+            margin: 5px;
+            grid-gap: 10px;
+        }
+        img{
+            width: 650px;
+            height: 400px;
+        }
+        #news_blocks{
+            background-color: lightgray;
+        }
+        h1{
+            color: red;
+        }
+        #butt{
+            background-color: yellow;
+            width: 200px;
+            height: 40px;
+            cursor: pointer;
+        }
+        #title{
+            color: blue;
+        }
+    </style>
+</head>
+<h1>SCROLL DOWN FOR LATEST NEWS</h1>
+<button onclick="search()" id="butt">Go to Search Engine</button>
+<h1>Todays Top news</h1>
+<div id="container"></div>
+
+<body>
+   <script src="home.js"></script>
+</body>
+</html>
